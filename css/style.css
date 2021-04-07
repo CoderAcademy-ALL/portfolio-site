@@ -1,20 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#profile img {
+  display: block;
+  width: 50%;
+  margin: 0 25%;
+}
+#profile p {
+  margin: 20px;
+  color: grey;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.title {
+  text-align: center;
+  padding: 10px;
+}
 
 /* responsive media queries */
 /* For mobile phones: */
-[class*="col-"] {
-
+[class*='col-'] {
   width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
-
+  #profile p {
+    font-size: 1.7em;
+  }
+  #profile img {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
   /* For tablets: */
   .col-s-1 {
     width: 8.33%;
@@ -53,7 +86,7 @@
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   /* For desktop: */
   .col-1 {
     width: 8.33%;
@@ -91,8 +124,17 @@
   .col-12 {
     width: 100%;
   }
+  .row {
+    justify-content: space-evenly;
+  }
+  .container {
+    margin: 0 15px;
+  }
+  #profile img {
+    width: 70%;
+    margin: 0 15%;
+  }
+  #profile p {
+    font-size: 1.2rem;
+  }
 }
-
-
- 
-
