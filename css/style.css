@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,58 @@
 
 }
 
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* profile section */
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    padding:10px;
+}
+
+#profile img{
+    width: 50%;
+    margin: 0 25%;
+}
+#profile p{
+    margin: 20px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+/* Project section */
+#projects{
+    background-color: #eee;
+    min-height: 1040px;
+}
+#projects h2{
+    margin: 20px;
+    text-align: center;
+}
+#projects a{
+    position: relative;
+    bottom: 10px;
+    padding: 33%;
+}
+
+.project{
+    background-color: white;
+    margin: 10px;
+    min-height: 250px;
+}
+
+.project img{
+    width: 100%;
+}
 /* responsive media queries */
 /* For mobile phones: */
 [class*="col-"] {
@@ -26,9 +79,14 @@
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-/*anything beyoud 768px*/
+  #profile p{ font-size: 1.7em;}
+  #profile img {width: 40%; margin: 0 30%}
+  .title{font-size: 2.5em;}
+  .project h2, a{font-size: 2em;}
+  #projects{min-height: 1900px;}
+} 
+@media only screen and (min-width: 769px) {
+/*anything beyoud 769px*/
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -42,4 +100,10 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .container{margin: 0px 150px;}
+  #profile img{width: 70%; margin: 0 15%;}
+  #profile p{font-size: 1.2em;}
+  .project img{min-height: 300px;}
+  .project h2, a { font-size: 1.3em;}
+  #projects{min-height: 600px;}
 }
