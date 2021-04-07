@@ -83,6 +83,30 @@ body {
   min-height: 250px;
 }
 
+/* Project section */
+#projects{
+    background-color: #eee;
+    min-height: 1040px;
+}
+#projects h2{
+    margin: 20px;
+    text-align: center;
+}
+#projects a{
+    position: relative;
+    bottom: 10px;
+    padding: 33%;
+}
+
+.project{
+    background-color: white;
+    margin: 10px;
+    min-height: 250px;
+}
+
+.project img{
+    width: 100%;
+}
 /* responsive media queries */
 /* For mobile phones: */
 [class*='col-'] {
@@ -101,6 +125,7 @@ body {
     font-size: 2.5rem;
   }
   /* For tablets: */
+
 
   .col-s-1 {
     width: 8.33%;
