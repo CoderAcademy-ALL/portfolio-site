@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 
 * {
   margin: 0;
@@ -33,32 +31,56 @@ body {
   padding: 10px;
 }
 
-body{
-    font-family: 'Libre Baskerville', serif;
+body {
+  font-family: 'Libre Baskerville', serif;
 }
 
 /* profile section */
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.title{
-    text-align: center;
-    padding:10px;
+.title {
+  text-align: center;
+  padding: 10px;
 }
 
-#profile img{
-    width: 50%;
-    margin: 0 25%;
+#profile img {
+  width: 50%;
+  margin: 0 25%;
 }
-#profile p{
-    margin: 20px;
-    color: #777;
-    font-size: 14px;
-    line-height: 1.75;
-    text-align: justify;
+#profile p {
+  margin: 20px;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.75;
+  text-align: justify;
+}
+/* project section */
+#project {
+  background: lightgray;
+  min-height: 1000px;
+}
+#project h2 {
+  margin: 20px;
+  text-align: center;
+}
+#project img {
+  width: 60%;
+}
+#project a {
+  position: relative;
+  padding: 33%;
+  bottom: 10px;
+  margin: 0 auto;
+}
+
+.project {
+  background-color: #fff;
+  margin: 10px;
+  min-height: 250px;
 }
 
 /* responsive media queries */
@@ -168,6 +190,13 @@ body{
   #profile p {
     font-size: 1.2rem;
   }
+  #project img {
+    min-height: 300px;
+  }
+  #project h2 a {
+    font-size: 1.2em;
+  }
+  #project {
+    min-height: 600px;
+  }
 }
-
-
