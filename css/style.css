@@ -34,6 +34,30 @@ body{
     text-align: justify;
 }
 
+/* Project section */
+#projects{
+    background-color: #eee;
+    min-height: 1040px;
+}
+#projects h2{
+    margin: 20px;
+    text-align: center;
+}
+#projects a{
+    position: relative;
+    bottom: 10px;
+    padding: 33%;
+}
+
+.project{
+    background-color: white;
+    margin: 10px;
+    min-height: 250px;
+}
+
+.project img{
+    width: 100%;
+}
 /* responsive media queries */
 /* For mobile phones: */
 [class*="col-"] {
@@ -58,6 +82,8 @@ body{
   #profile p{ font-size: 1.7em;}
   #profile img {width: 40%; margin: 0 30%}
   .title{font-size: 2.5em;}
+  .project h2, a{font-size: 2em;}
+  #projects{min-height: 1900px;}
 } 
 @media only screen and (min-width: 769px) {
 /*anything beyoud 769px*/
@@ -77,4 +103,7 @@ body{
   .container{margin: 0px 150px;}
   #profile img{width: 70%; margin: 0 15%;}
   #profile p{font-size: 1.2em;}
+  .project img{min-height: 300px;}
+  .project h2, a { font-size: 1.3em;}
+  #projects{min-height: 600px;}
 }
