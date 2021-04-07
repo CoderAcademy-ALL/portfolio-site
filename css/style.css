@@ -6,7 +6,9 @@
 
 /* responsive media queries */
 
+
 /* For mobile phones: */
+
 [class*="col-"] {
     width: 100%;
   }
