@@ -5,6 +5,31 @@
 
 }
 
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+
+}
+
+#profile img{
+    width: 50%;
+    margin: 0 25%;
+}
+
+#profile p{
+    margin: 20px;
+    color: gray;
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: justify;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -25,9 +50,12 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    #profile p{ font-size: 1.7em;}
+    #profile img{ width: 40%; margin: 0 30%;}
+    .title{ font-size: 2.5em;}
   }
-  @media only screen and (min-width: 768px) {
-  /*anything beyoud 768px*/
+  @media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -41,4 +69,6 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .container {margin: 0px 150px;}
+    #profile img{width: 70%; margin: 0 15%;}
   }
