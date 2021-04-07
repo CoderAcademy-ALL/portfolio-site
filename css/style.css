@@ -1,15 +1,20 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* responsive media queries */
 /* For mobile phones: */
-[class*='col-'] {
+[class*="col-"] {
+
   width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
+
   /* For tablets: */
   .col-s-1 {
     width: 8.33%;
@@ -87,3 +92,7 @@
     width: 100%;
   }
 }
+
+
+ 
+
