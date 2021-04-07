@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -10,6 +9,9 @@
 }
 
 @media only screen and (min-width: 600px) {
+
+/*larger than 601px - 768px*/
+
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -25,6 +27,9 @@
   .col-s-12 {width: 100%;}
 }
 @media only screen and (min-width: 768px) {
+
+/*anything beyoud 768px*/
+
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
