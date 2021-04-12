@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    border: indigo;
+}
+.topnav .active {
+    color: grey;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: right;
+}
+h1 {
+    font-style: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+ul {
+    font-size: 25px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-inline-start: 0px;
+    line-height: 10px;
+}
+li {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    line-height: 25px;
+}
+li:hover {
+    transform: scale(1.5);
+}

@@ -1,0 +1,50 @@
+
+body {
+    background-color: black;
+    border-color: green;
+}
+
+.topnav .active {
+    color: grey;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: right;
+}
+
+h1 {
+    font-style: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    color: grey;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+a:hover {
+    transform: scale(1.5);
+}
+image.icons {
+    size: 25px;
+}
