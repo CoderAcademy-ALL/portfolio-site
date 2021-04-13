@@ -1,17 +1,44 @@
-
+/* Overall body styling for page layout */ 
 body {
-    background-color: black;
-    border-color: green;
-}
+    background: black;
+    }
 
+/* Navbar styling */ 
 .topnav .active {
     color: grey;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     justify-content: right;
+    display: inline-flex;
+    margin: 15px;
+    text-decoration: none;
+    position: relative;
+    top: 0%;
 }
 
+/* Navbar pseudo styling before effect */
+.topnav ::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0px;
+}
+
+/* Navbar pseudo styling after being hovered over */
+.topnav :hover::before {
+    width: 100%;
+}
+
+/* Header Styling */
+header {
+    background: midnightblue;
+}
+
+/* Specific styling for heading */ 
 h1 {
     font-style: bold;
     font-size: 40px;
@@ -22,6 +49,7 @@ h1 {
     justify-content: center;
 }
 
+/* Specific paragraph styling for most webpages */ 
 p {
     font-size: 25px;
     font-style: normal;
@@ -33,6 +61,7 @@ p {
     text-align: center;
 }
 
+/* specific styling for anchor elements*/ 
 a {
     color: grey;
     font-style: bold;
@@ -42,9 +71,8 @@ a {
     display: flex;
     justify-content: center;
 }
-a:hover {
-    transform: scale(1.5);
-}
+
+/* Image sizing */
 image.icons {
     size: 25px;
 }
