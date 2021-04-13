@@ -16,7 +16,8 @@ Source Code - /Portfolio-site/src/
 # Development Notes
 13/04/2021 -- 
     
-    First managed to successfully push files and code to GITHUB repository. CSS currently quite messy and working on wireframes to clean up website design. Barebones laid down for webpages. 
+    (11:20am) First managed to successfully push files and code to GITHUB repository. CSS currently quite messy and working on wireframes to clean up website design. Barebones laid down for webpages. 
+    (2:30pm) Updated remote and local git repositories by branching all webpages and CSS folder locally then pushed them to the origin. Wireframes have now been created, HTML and CSS file names updated to allow for more cohesion - time to begin the focus on coding. 
 
 # Contact Information
 Developer: Sneha Bhamra
