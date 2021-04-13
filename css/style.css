@@ -10,6 +10,85 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 
+/* Header */
+
+header {
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    /* width: auto; */
+    /* position: fixed; */
+    background-color: #FFFFFF;
+    /* display: block; */
+    
+    
+
+}
+
+li {
+    display: inline;
+    background-color: #FFFFFF;
+    /* width: 40px; */
+    
+    padding: 0px 40px 0px 40px;
+    font-family: verdana;
+    
+      
+}
+
+/* body */
+.bluebar {
+    height: 50px;
+    background-color: #336699
+   
+}
+
+.whitebar {
+    height: 350px;
+    background-colour: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.large-rectangle {
+    height: 300px;
+    width: 500px;
+    border: solid 2px #000000;
+    margin-left: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.blue-square {
+    height: 180px;
+    width: 180px;
+    background-color: #336699;
+    
+    
+
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
 /* profile section */
 .row{
     display: flex;
