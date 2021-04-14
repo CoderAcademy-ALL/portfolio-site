@@ -6,20 +6,22 @@
 
 }
 
-body{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 /* Header */
 
 header {
-    height: 10vh;
+    height: 2.5rem;
     background-color: #336699;
     border: 1px solid #000000;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 0.5rem;
+    width: 100%;
+    position: fixed;
+    
     
 }
 
@@ -27,12 +29,16 @@ header {
     background-color: #336699;
     color: #bf9000;
     /* font-weight: 600; */
-    padding: 0.3em;
+    /* padding: 0.3em; */
     font-size: 1.0rem;
     border: solid 0.25rem ;
     cursor: pointer;
     /* height: 100%; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+
+    
     
   }
   
@@ -69,11 +75,23 @@ header {
   }
 
 /* body */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2.5rem;
+    height: auto;
+}
 
+.total {
+    min-height: 100%;
+    position: relative;
+
+}
 
 .whitebody {
-    height: 80vh;
+    height: 93vh;
     background-color: #ddd6cd;
+    width: 100%;
+    
 
 }
 
@@ -124,8 +142,11 @@ a {
 
 /* Footer */
 footer {
-    height: 10vh;
+    height: 2.5rem;
     background-color: #336699;
     border: 1px solid #000000;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
