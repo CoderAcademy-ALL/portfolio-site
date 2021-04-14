@@ -13,11 +13,60 @@ body{
 /* Header */
 
 header {
-    height: 10vmin;
+    height: 10vh;
     background-color: #336699;
     border: 1px solid #000000;
-     
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.dropbtn {
+    background-color: #336699;
+    color: #bf9000;
+    /* font-weight: 600; */
+    padding: 0.3em;
+    font-size: 1.0rem;
+    border: solid 0.25rem ;
+    cursor: pointer;
+    /* height: 100%; */
+    /* box-sizing: border-box; */
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    /* padding: 10px 16px; */
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
 
 /* body */
 
@@ -59,18 +108,15 @@ a {
 }
 .home-link1 {
     color: #000000;
-    /* background-color: gold; */
     border-color: #bf9000;
 }
 
 .home-link2 {
     color: #000000;
-    /* background-color: #336699; */
     border-color: #336699;
 }
 .home-link3 {
     color: #000000;
-    /* background-color: green; */
     border-color: green;
 }
 
@@ -78,7 +124,7 @@ a {
 
 /* Footer */
 footer {
-    height: 10vmin;
+    height: 10vh;
     background-color: #336699;
     border: 1px solid #000000;
 
