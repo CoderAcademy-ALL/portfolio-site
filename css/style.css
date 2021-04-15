@@ -196,7 +196,10 @@ a {
     border: solid 3px #bf9000; 
 }
 
-
+/* Hobbies */
+.hobby {
+    max-width: 250px;
+}
 
 
 
