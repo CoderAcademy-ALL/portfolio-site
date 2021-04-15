@@ -20,11 +20,10 @@ header {
     justify-content: left;
     padding-left: 0.5rem;
     width: 100%;
-    position: fixed;
-    
-    
+    position: fixed; 
 }
 
+/* Navigation */
 .dropbtn {
     background-color: #336699;
     color: #bf9000;
@@ -36,16 +35,12 @@ header {
     height: 100%;
     box-sizing: border-box;
     padding-left: 0.15rem;
-    padding-right: 0.15rem;
-
-    
-    
+    padding-right: 0.15rem; 
   }
-  
+
   .dropdown {
     position: relative;
-    display: inline-block;
-    
+    display: inline-block;  
   }
   
   .dropdown-content {
@@ -78,8 +73,16 @@ header {
 /* body */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 2.5rem;
+    /* padding-bottom: 2.5rem; */
     /* height: auto; */
+}
+
+.home-page {
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Home */
@@ -89,6 +92,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* padding-top: 5rem; */
 }
 
 .title {
@@ -144,7 +148,7 @@ a {
 .about-page {
    height: 100%;
    padding-top: 2rem;
-   background: #ddd6cd;
+   background: #FFFFFF;
   
 }
 
@@ -179,7 +183,7 @@ a {
 
 .res1, .res2, .res3, .res4, .res5 {
     /* margin: 1px; */
-    background-color: #ddd6cd;
+    background-color: #FFFFFF;
     padding: 2px;
 }
 
