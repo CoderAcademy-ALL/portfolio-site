@@ -78,23 +78,10 @@ header {
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 2.5rem;
-    height: auto;
+    /* height: auto; */
 }
 
-.total {
-    min-height: 100%;
-    position: relative;
-
-}
-
-.whitebody {
-    height: 93vh;
-    background-color: #ddd6cd;
-    width: 100%;
-    
-
-}
-
+/* Home */
 .home-text {
     height: 100%;
     display: flex;
@@ -137,6 +124,77 @@ a {
     color: #000000;
     border-color: green;
 }
+
+/* About */
+
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    max-width: 500px;
+    margin: 1rem 0;
+    border: solid 2px #000000;
+    
+}
+.about-page {
+   height: 100vh;
+   padding-top: 2rem;
+   background: #ddd6cd;
+  
+}
+
+.about-heading {
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.about-intro {
+    padding-bottom: 1rem;
+    
+}
+
+.res-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+}
+
+.res-box {
+    border: solid 2px #000000;
+    width: 200px;
+    padding: 1px;
+    background-color: #000000;
+    font-size: 1em;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.res1, .res2, .res3, .res4, .res5 {
+    /* margin: 1px; */
+    background-color: #ddd6cd;
+    padding: 2px;
+}
+
+
+.res2 {
+    border: solid 3px #336699; 
+}
+
+.res3 {
+    border: solid 3px green; 
+}
+.res4 {
+    border: solid 3px #bf9000; 
+}
+
+
 
 
 
