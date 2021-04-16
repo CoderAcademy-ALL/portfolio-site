@@ -226,19 +226,14 @@ a {
     
 }
 
-.coding-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 
 
 .coding-heading, .ecomm-heading, .blog-heading {
     font-size: 1.2rem;
-
 }
+
 
 /* Cards for project page */
 .p-card {
@@ -246,6 +241,7 @@ a {
     margin: 1rem 0;
     border: solid 2px #000000;
     padding: 0.5rem;
+    /* height: 300px; */
 }
 
 .pc1 {
@@ -254,6 +250,7 @@ a {
 .pc2 {
     padding-bottom: 1rem;
     font-style: italic;
+    padding-top: 0.25rem;
 
 }
 
@@ -261,13 +258,17 @@ a {
     width: 100%;
     /* max-width: 200px; */
     padding-top: 1rem;
+    
+    
 }
 
-.ecomm-info, .blog-info {
+
+.ecomm-info, .blog-info, .coding-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 /* Footer */
