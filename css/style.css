@@ -77,6 +77,10 @@ body{
     /* height: auto; */
 }
 
+
+
+/* Home */
+
 .home-page {
     height: 100vh;
     background: #FFFFFF;
@@ -85,7 +89,6 @@ body{
     justify-content: center;
 }
 
-/* Home */
 .home-text {
     height: 100%;
     display: flex;
@@ -226,10 +229,6 @@ a {
     
 }
 
-
-
-
-
 .coding-heading, .ecomm-heading, .blog-heading {
     font-size: 1.2rem;
 }
@@ -262,7 +261,7 @@ a {
     
 }
 
-
+/* Area where cards sit */
 .ecomm-info, .blog-info, .coding-info {
     display: flex;
     flex-wrap: wrap;
@@ -270,6 +269,45 @@ a {
     align-items: flex-start;
     
 }
+
+/* Contact Page */
+
+.contact-page {
+    height: 100%;
+    background: #FFFFFF;
+    padding: 2.5rem;
+     }
+    
+.contact-top {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    }
+.contact-heading {
+    color: black;
+    padding-bottom: 1rem;
+    }
+    
+.contact-text {
+    padding-bottom: 1rem;
+        
+    }
+    
+.contact-info {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    
+    /* padding-right: 1rem; */
+    list-style-type: none;
+    
+    }
+
+.contact-info li {
+    padding-bottom: 1rem;
+}
+
+
 
 /* Footer */
 footer {
