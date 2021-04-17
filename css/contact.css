@@ -8,7 +8,6 @@ body {
     }
 
 
-
 /* Navbar styling */ 
 .topnav .active {
     color: white;
@@ -48,6 +47,7 @@ header {
     background: #eda4ba;
 }
 
+
 /* Specific styling for heading */ 
 h1 {
     font-style: bold;
@@ -58,8 +58,7 @@ h1 {
     display: flex;
     justify-content: center;
     line-height: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    
 }
 
 /* Specific paragraph styling for most webpages */ 
@@ -70,18 +69,13 @@ p {
     color: #c7d5eb;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
     text-align: center;
     line-height: 25px;
 }
 
-p.blog {
-    line-height: 35px;
-}
-
 /* specific styling for anchor elements*/ 
 a {
-    color: grey;
+    color: #c7d5eb;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -90,26 +84,37 @@ a {
     justify-content: center;
 }
 
- .blogheadings {
-    font-size: 25px;
-    text-align: left;
-    position:relative;
 
-}
-
-
-form {
+form.container {
+    width: 500px;
+    height: 500px;
+    left: 40%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    display: inline-flex;
     box-sizing: border-box;
     position: fixed;
-    justify-content:left;
     flex-wrap: wrap;
-    display: block;
-
+    display:flexbox;
+    margin: 0%;
+    color: #c7d5eb;
 }
 
+textarea {
+    height: 200px;
+    width: 400px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    display: block;
+    border: none;
+}
+
+button {
+    background-color: #eda4ba;
+    color: rgb(78, 112, 185);
+    border: none;
+}
 footer {
     color: white;
     height: 40px;
