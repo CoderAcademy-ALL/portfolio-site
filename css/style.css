@@ -162,6 +162,18 @@ a {
     
 }
 
+.about-text-p1 {
+    padding-bottom: 1rem;
+}
+.about-text-p2 {
+    padding-bottom: 1rem;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    
+}
 .about-info {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +203,13 @@ a {
     padding: 2px;
 }
 
+.res-h {
+    font-weight: bold;
+}
+
+.res-date {
+    font-style: italic;
+}
 
 .res2 {
     border: solid 3px #336699; 
