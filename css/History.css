@@ -82,6 +82,14 @@ li:hover {
     transform: scale(1.5);
 }
 
+img.icons {
+    bottom: 5px;
+    right: 5px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
 
 footer {
     color: white;

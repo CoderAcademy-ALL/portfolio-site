@@ -110,6 +110,14 @@ form {
 
 }
 
+img.icons {
+    bottom: 5px;
+    right: 5px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
 footer {
     color: white;
     height: 40px;
