@@ -164,16 +164,40 @@ a {
 
 .about-text-p1 {
     padding-bottom: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
 }
-.about-text-p2 {
+/* .about-text-p2 {
     padding-bottom: 1rem;
-}
+} */
 
 .quote {
     font-style: italic;
     font-size: 1.2rem;
+    /* padding-bottom: 1rem; */
     
 }
+
+.coding-span {
+    font-weight: 600;
+    color: #336699;
+}
+
+.bus-span {
+    font-weight: 600;
+    color: green;
+}
+
+.arts-span {
+    font-weight: 600;
+    color: #bf9000;
+}
+
+.skillslist li {
+list-style-type: none;
+padding-bottom: 1rem;
+}
+
 .about-info {
     display: flex;
     flex-wrap: wrap;
