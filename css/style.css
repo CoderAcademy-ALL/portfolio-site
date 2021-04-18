@@ -287,7 +287,7 @@ padding-bottom: 1rem;
 .p-card {
     max-width: 300px;
     margin: 1rem 0;
-    border: solid 2px #000000;
+    /* border: solid 2px #000000; */
     padding: 0.5rem;
     /* height: 300px; */
 }
@@ -317,6 +317,21 @@ padding-bottom: 1rem;
     justify-content: space-between;
     align-items: flex-start;
     
+}
+
+.coding-info  .p-card{
+    border: solid 4px #336699;
+    padding: 1rem;
+}
+
+.ecomm-info  .p-card{
+    border: solid 4px #009e0f;
+    padding: 1rem;
+}
+
+.blog-info  .p-card{
+    border: solid 4px #bf9000;
+    padding: 1rem;
 }
 
 /* Contact Page */
