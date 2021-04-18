@@ -356,6 +356,45 @@ padding-bottom: 1rem;
     padding-bottom: 1rem;
 }
 
+/* Blog Pages */
+.blog-page {
+    height: 100%;
+    /* padding-top: 2.5rem; */
+    background: #FFFFFF;
+    /* padding-bottom: 2.5rem; */
+    padding: 2.5rem;
+}
+
+.blog-top {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2.5rem; */
+}
+.blog-heading {
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.blog-text {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+
+.blog-img {
+    max-width: 350px;
+    border: 2px solid #000000;
+    
+}
+
+.date-pub {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+    padding-bottom: 1rem;
+
+}
 
 
 /* Footer */
