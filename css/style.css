@@ -202,7 +202,7 @@ padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .card {
@@ -226,6 +226,7 @@ padding-bottom: 1rem;
     /* margin: 1px; */
     background-color: #FFFFFF;
     padding: 2px;
+    border-bottom: 2px solid #000000;
 }
 
 .res-h {
@@ -237,14 +238,14 @@ padding-bottom: 1rem;
 }
 
 .res2 {
-    border: solid 3px #336699; 
+    border-left: solid 10px #336699; 
 }
 
 .res3 {
-    border: solid 3px green; 
+    border-left: solid 10px  green; 
 }
 .res4 {
-    border: solid 3px #bf9000; 
+    border-left: solid 10px  #bf9000; 
 }
 
 /* Hobbies */
